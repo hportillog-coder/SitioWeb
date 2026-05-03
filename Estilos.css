@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: rgb(236, 232, 232);
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background: rgb(15, 14, 14);
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    display: none;
+    flex: 3;
+    padding: 10px;
+}
+
+section.active {
+    display: block;
+}
+
+aside {
+    flex: 1;
+    background: lightgray;
+    padding: 10px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
